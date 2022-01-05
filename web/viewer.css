@@ -975,6 +975,13 @@ html[dir='rtl'] .splitToolbarButton > .toolbarButton {
   float: right;
 }
 
+#playlist,audio{background:#666;height:20px;width:400px;padding:6px;}
+.active a{color:#5DB0E6;text-decoration:none;}
+li a{color:#eeeedd;background:#333;padding:5px;display:block;}
+li a:hover{text-decoration:none;}
+
+#scaleSelect,#scaleSelectContainer {display:none;visibility:hidden;}
+
 .toolbarButton,
 .secondaryToolbarButton,
 .overlayButton {
@@ -1304,6 +1311,11 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
 .toolbarButton.presentationMode::before,
 .secondaryToolbarButton.presentationMode::before {
   content: url(images/toolbarButton-presentationMode.png);
+}
+
+.toolbarButton.playAudio::before,
+.secondaryToolbarButton.playAudio::before {
+  content: url(images/findbarButton-next-rtl.png);
 }
 
 .toolbarButton.print::before,

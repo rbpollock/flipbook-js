@@ -4352,7 +4352,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'compressed.tracemonkey-pldi-09.pdf',
+    value: 'https://wippbooks.mypinata.cloud/ipfs/bafybeigirmjbgh5d2x7o5sxz4qqxqkzy7ky3gtepb5iukdpcxzbqxewgti?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbmRleGVzIjpbIjMzMDcxM2VlMThjMjRjZjVkNDJjNmIwYWExMmIzMzE3Il0sImFjY291bnRJZCI6Ijc5ZjI3ZWZlLTg3M2QtNGE1OS05ZTYwLWI5ZDJlN2RmNTgwNCIsImlhdCI6MTY0MTQyMDk3NiwiZXhwIjoyNzkyMTY3NjI4OH0.T4QYJ6YD833xBysELRpoSoMWkO8Q6Z3atX3XRoCiln4',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
